@@ -1,10 +1,8 @@
 body{
     font-family: 'Roboto', sans-serif;
     margin: 0%;
-
-
 }
-p{
+div{
     text-align: justify;
 }
 h1{
@@ -16,11 +14,37 @@ marquee{
     color: #b31aff;
     font-weight: 900;
 }
-samp{
-    color: orangered;
+.color-green{
+    color: rgb(66, 245, 66);
 }
 .uper-button{
-    font-size: 10x;
+    font-size: 20x;
     box-sizing: content-box;
-    color: orchid;
+}
+.flexible-container{
+    display: flex;
+    padding-bottom: 100px;
+}
+.half-width{
+width: 50%;
+    padding-right: 10%;
+    padding-left: 2%;
+}
+.half-width image{
+    width: 80%;
+}
+.about-me{
+    background-image: url(images/shapes/7.png);
+    background-repeat: no-repeat;
+    background-color:  #e6e6e6;
+}
+.link-button{
+    background-image: linear-gradient(#ff8c1a, #ff3300);
+    padding: 10px 40px;
+    text-decoration: none;
+    color: papayawhip;
+    border-radius: 45%;
+}
+.my-recipi{
+    text-align: center;
 }
