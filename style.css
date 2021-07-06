@@ -27,8 +27,8 @@ marquee{
 }
 .half-width{
     width: 50%;
-    padding-right: 7%;
-    padding-left: 3%;
+    padding-right: 2%;
+    padding-left: 2%;
 }
 .half-width image{
     width: 80%;
@@ -59,8 +59,20 @@ marquee{
     text-align: center;
     padding-left: 30%;
     padding-right: 30%;
+    padding-bottom: 100px;
     padding-top: 60px;
 }
-section{
-    display: flex;
+.recipie-width img{
+    width: 90%;
+    border-radius: 10%;
+    
+}
+.subscriber-follower{
+    text-align: center;
+    width: 50%;
+    padding-right: 2%;
+    padding-left: 2%;
+}
+.recipie-item{
+    
 }
