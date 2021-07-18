@@ -25,6 +25,7 @@ marquee{
     font-size: 50px;
     box-sizing: content-box;
     font-weight: 700;
+    color: indigo;
 }
 .flexible-container{
     display: flex;
@@ -74,7 +75,6 @@ marquee{
     padding-left: 2%;
 }
 .recipie-item{
-    width:60%;
     margin-left: 2%;
     margin-right: 2%;
     padding-right: 3%;
@@ -83,8 +83,13 @@ marquee{
     padding-bottom: 2%;
     border-radius: 10%;
     box-shadow: 10px 10px 40px #ff8c1a;
+    border: solid goldenrod;
+}
+.recipie-item img {
+    width: 100%;
 }
 .footer-place{
     text-align: center;
     background-color: 	#404040;
+    height: 140px;
 }
